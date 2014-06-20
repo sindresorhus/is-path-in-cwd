@@ -1,12 +1,6 @@
 'use strict';
-var path = require('path');
-var pathIsInside = require('path-is-inside');
+var isPathInside = require('is-path-inside');
 
-module.exports = function (pth) {
-	// workaround: https://github.com/domenic/path-is-inside/issues/2
-	if (path.resolve(pth) === process.cwd()) {
-		return false;
-	}
-
-	return pathIsInside(path.resolve(pth), process.cwd());
+module.exports = function (str) {
+	return isPathInside(str, process.cwd());
 };

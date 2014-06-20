@@ -1,7 +1,7 @@
 {
   "name": "is-path-in-cwd",
   "version": "0.1.0",
-  "description": "Check if a path is in CWD",
+  "description": "Check if a path is in the current working directory",
   "license": "MIT",
   "repository": "sindresorhus/is-path-in-cwd",
   "author": {
@@ -30,7 +30,7 @@
     "inside"
   ],
   "dependencies": {
-    "path-is-inside": "^1.0.1"
+    "is-path-inside": "^0.1.0"
   },
   "devDependencies": {
     "mocha": "*"
