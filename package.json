@@ -30,7 +30,7 @@
     "inside"
   ],
   "dependencies": {
-    "is-path-inside": "^0.1.0"
+    "is-path-inside": "^1.0.0"
   },
   "devDependencies": {
     "mocha": "*"
