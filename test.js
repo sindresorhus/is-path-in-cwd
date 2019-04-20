@@ -1,10 +1,10 @@
 import test from 'ava';
-import m from '.';
+import isPathInCwd from '.';
 
 test('main', t => {
-	t.true(m('foo'));
-	t.false(m('.'));
-	t.false(m('/'));
-	t.false(m('..'));
-	t.false(m('../rainbow'));
+	t.true(isPathInCwd('foo'));
+	t.false(isPathInCwd('.'));
+	t.false(isPathInCwd('/'));
+	t.false(isPathInCwd('..'));
+	t.false(isPathInCwd('../rainbow'));
 });
