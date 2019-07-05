@@ -24,8 +24,3 @@ isPathInCwd('../rainbow');
 isPathInCwd('.');
 //=> false
 ```
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
