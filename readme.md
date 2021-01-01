@@ -1,4 +1,4 @@
-# is-path-in-cwd [![Build Status](https://travis-ci.org/sindresorhus/is-path-in-cwd.svg?branch=master)](https://travis-ci.org/sindresorhus/is-path-in-cwd)
+# is-path-in-cwd
 
 > Check if a path is in the [current working directory](https://en.wikipedia.org/wiki/Working_directory)
 
