@@ -1,6 +1,6 @@
 {
 	"name": "is-path-in-cwd",
-	"version": "3.0.0",
+	"version": "4.0.0",
 	"description": "Check if a path is in the current working directory",
 	"license": "MIT",
 	"repository": "sindresorhus/is-path-in-cwd",
