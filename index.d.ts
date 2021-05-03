@@ -3,7 +3,7 @@ Check if a path is in the [current working directory](https://en.wikipedia.org/w
 
 @example
 ```
-import isPathInCwd = require('is-path-in-cwd');
+import isPathInCwd from 'is-path-in-cwd';
 
 isPathInCwd('unicorn');
 //=> true
@@ -15,6 +15,4 @@ isPathInCwd('.');
 //=> false
 ```
 */
-declare function isPathInCwd(path: string): boolean;
-
-export = isPathInCwd;
+export default function isPathInCwd(path: string): boolean;

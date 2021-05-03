@@ -1,4 +1,5 @@
-'use strict';
-const isPathInside = require('is-path-inside');
+import isPathInside from 'is-path-inside';
 
-module.exports = path => isPathInside(path, process.cwd());
+export default function isPathInCwd(path) {
+	return isPathInside(path, process.cwd());
+}

@@ -1,5 +1,5 @@
 import test from 'ava';
-import isPathInCwd from '.';
+import isPathInCwd from './index.js';
 
 test('main', t => {
 	t.true(isPathInCwd('foo'));

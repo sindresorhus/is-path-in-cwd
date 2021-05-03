@@ -2,18 +2,16 @@
 
 > Check if a path is in the [current working directory](https://en.wikipedia.org/wiki/Working_directory)
 
-
 ## Install
 
 ```
 $ npm install is-path-in-cwd
 ```
 
-
 ## Usage
 
 ```js
-const isPathInCwd = require('is-path-in-cwd');
+import isPathInCwd from 'is-path-in-cwd';
 
 isPathInCwd('unicorn');
 //=> true
@@ -24,7 +22,6 @@ isPathInCwd('../rainbow');
 isPathInCwd('.');
 //=> false
 ```
-
 
 ---
 
